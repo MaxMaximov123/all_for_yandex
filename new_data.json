@@ -1,0 +1,800 @@
+{
+    "WEB. Работа с файловой системой и популярными форматами файлов: zip-архивами и json-файлами": {
+        "title": {
+            "id": 25874,
+            "shortTitle": "B",
+            "title": "Архивирование",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4577,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3561,
+                "shortTitle": "WEB: json, zip",
+                "title": "WEB. Работа с файловой системой и популярными форматами файлов: zip-архивами и json-файлами",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 50,
+            "deadline": null,
+            "description": "<!DOCTYPE html\n  SYSTEM \"html\">\n<div class=\"problem-statement\">\n   <div class=\"header\">\n      <h1 class=\"title\">Архивирование</h1>\n      <table>\n         <tr class=\"time-limit\">\n            <td class=\"property-title\">Ограничение времени</td>\n            <td>1&nbsp;секунда</td>\n         </tr>\n         <tr class=\"memory-limit\">\n            <td class=\"property-title\">Ограничение памяти</td>\n            <td>64Mb</td>\n         </tr>\n         <tr class=\"input-file\">\n            <td class=\"property-title\">Ввод</td>\n            <td colspan=\"1\">стандартный ввод или input.txt</td>\n         </tr>\n         <tr class=\"output-file\">\n            <td class=\"property-title\">Вывод</td>\n            <td colspan=\"1\">стандартный вывод или output.txt</td>\n         </tr>\n      </table>\n   </div>\n   <h2></h2>\n   <div class=\"legend\"><span style=\"\">\n         <p>Вам необходимо сделать утилиту, которую можно будет использовать для резервного копирования определенного каталога. <br> Пока мы с вами не научились еще работать с командной строкой, но точно можем сделать заготовку, которую используем в будущем\n            — напишем функцию <span style=\"font-weight:bold;\">make_reserve_arc(source, dest)</span>. <br> <br> Правила работы функции следующие:<br> 1. <span style=\"font-weight:bold;\">source</span> — это путь к каталогу, который надо архивировать <br> 2. <span style=\"font-weight:bold;\">dest</span> — это путь к каталогу, в который необходимо поместить результат <br> 3. Создаваемый архив должен получить имя, в котором обязательно присутствуют дата и время архивации с точностью до секунды\n            <br> \n         </p></span><p></p>\n   </div>\n   <h2>Примечания</h2>\n   <div class=\"notes\"><span style=\"\">\n         <p>Эта задача проверяется преподавателем, поэтому у вас есть отличный шанс пофантазировать и попытаться придумать интересный\n            интерфейс пользователя для удобства ввода данных.\n         </p></span></div>\n</div>",
+            "compilersIds": [],
+            "isContestIntegrated": true,
+            "hasManualCheck": true,
+            "solutionId": 11000076,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "Чат-боты 1 (ВКонтакте)": {
+        "title": {
+            "id": 25912,
+            "shortTitle": "F",
+            "title": "Вики-бот",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4592,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3577,
+                "shortTitle": "Чат-боты ВК",
+                "title": "Чат-боты 1 (ВКонтакте)",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 9,
+            "deadline": null,
+            "description": "<p>Напишите бота, который в&nbsp;ответ на&nbsp;сообщение пользователя спрашивает, что хочет узнать пользователь, а&nbsp;затем присылает требуемую информацию. Для взаимодействия с&nbsp;Википедией можно установить модуль <code>wikipedia</code>.</p>\n<p>Документацию по&nbsp;API Википедии можно посмотреть <a href=\"https://www.mediawiki.org/wiki/API:Main_page/ru\" target=\"_blank\" rel=\"noopener\">здесь</a>. Добавьте возможность после ответа задать следующий вопрос.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000159,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. REST-API. Понятие. Делаем простое Rest-api": {
+        "title": {
+            "id": 25743,
+            "shortTitle": "E",
+            "title": "Обработка некорректного POST-запроса (существующий ключ)",
+            "tag": {
+                "id": 1,
+                "type": "classwork",
+                "color": "#00E6C5",
+                "order": 1
+            },
+            "variant": {
+                "id": 4590,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3572,
+                "shortTitle": "WEB. REST-API",
+                "title": "WEB. REST-API. Понятие. Делаем простое Rest-api",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 18,
+            "deadline": null,
+            "description": "<p>Измените обработчик добавления работы так, чтобы проверялось существование работы с&nbsp;таким&nbsp;же <code>id</code>. Если такая запись существует, должен возвращаться json-словарь с&nbsp;ошибкой&nbsp;<strong>Id already exists</strong>.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000045,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "Библиотеки unittest и pytest": {
+        "title": {
+            "id": 25941,
+            "shortTitle": "C",
+            "title": "Тестирование счётчика символов",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4583,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3560,
+                "shortTitle": "unittest pytest",
+                "title": "Библиотеки unittest и pytest",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 20,
+            "deadline": null,
+            "description": "<!DOCTYPE html\n  SYSTEM \"html\">\n<div class=\"problem-statement\">\n   <div class=\"header\">\n      <h1 class=\"title\">Тестирование счётчика символов</h1>\n      <table>\n         <tr class=\"time-limit\">\n            <td class=\"property-title\">Ограничение времени</td>\n            <td>10&nbsp;секунд</td>\n         </tr>\n         <tr class=\"memory-limit\">\n            <td class=\"property-title\">Ограничение памяти</td>\n            <td>64Mb</td>\n         </tr>\n         <tr class=\"input-file\">\n            <td class=\"property-title\">Ввод</td>\n            <td colspan=\"1\">стандартный ввод или yandex_testing_lesson.py</td>\n         </tr>\n         <tr class=\"output-file\">\n            <td class=\"property-title\">Вывод</td>\n            <td colspan=\"1\">стандартный вывод или output.txt</td>\n         </tr>\n      </table>\n   </div>\n   <h2></h2>\n   <div class=\"legend\"><span style=\"\">\n         <p>С помощью библиотеки <span class=\"tex-monospace\">pytest</span> напишите тесты для функции <span class=\"tex-monospace\">count_chars(s)</span>, которая принимает на вход строку и возвращает словарь, в котором ключами являются символы строки, а значениями &ndash; числа, говорящие о том, сколько раз эти символы встречались в строке. Если на входе функции не строка, должно выбрасываться\n            исключение <span class=\"tex-monospace\">TypeError</span>. Функцию <span class=\"tex-monospace\">count_chars</span> нужно импортировать из модуля <span class=\"tex-monospace\">yandex_testing_lesson</span>.\n         </p></span></div>\n</div>",
+            "compilersIds": [],
+            "isContestIntegrated": true,
+            "hasManualCheck": false,
+            "solutionId": 11000115,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. REST-API. Flask-restful": {
+        "title": {
+            "id": 25997,
+            "shortTitle": "C",
+            "title": "Приложение REST-API v2.0",
+            "tag": {
+                "id": 2,
+                "type": "homework",
+                "color": "#027BF3",
+                "order": 2
+            },
+            "variant": {
+                "id": 4591,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3573,
+                "shortTitle": "Flask-restful",
+                "title": "WEB. REST-API. Flask-restful",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 34,
+            "deadline": null,
+            "description": "<p>Наше приложение готово! В&nbsp;нем есть ресурсы для работы с&nbsp;одним пользователем и&nbsp;со&nbsp;списком пользователей, с&nbsp;одной работой и&nbsp;с&nbsp;их&nbsp;списком. Можно их&nbsp;получать, создавать, изменять и&nbsp;удалять.</p>\n<p>Загрузите архив со&nbsp;всеми необходимыми для этого папками и&nbsp;файлами в&nbsp;качестве решения.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000141,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Знакомство с flask-sqlalchemy": {
+        "title": {
+            "id": 25783,
+            "shortTitle": "A",
+            "title": "Еще одна модель",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4588,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3570,
+                "shortTitle": "sqlalchemy",
+                "title": "WEB. Знакомство с flask-sqlalchemy",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 50,
+            "deadline": null,
+            "description": "<p>По&nbsp;мере роста поселения колонистов на&nbsp;Марсе возникает необходимость объединить всех специалистов в&nbsp;департаменты и&nbsp;хранить информацию о&nbsp;них в&nbsp;отдельной модели. Поэтому нам нужно расширить базу данных колонистов еще одной моделью <code>Department</code> с&nbsp;полями:</p>\n<ul>\n<li><strong>id</strong></li>\n<li><strong>title</strong> (String)</li>\n<li><strong>chief</strong> (Integer)</li>\n<li><strong>members</strong> (list of id`s)</li>\n<li><strong>email</strong> (String)</li>\n</ul>\n<p>На&nbsp;проверку сдайте только файл departments.py с&nbsp;моделью, в&nbsp;которой кроме того создана связь с&nbsp;моделью <code>User</code>.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000056,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Библиотека argparse. Задачи на создание скриптов с ее помощью": {
+        "title": {
+            "id": 25776,
+            "shortTitle": "B",
+            "title": "Калькулятор 3.0",
+            "tag": {
+                "id": 2,
+                "type": "homework",
+                "color": "#027BF3",
+                "order": 2
+            },
+            "variant": {
+                "id": 4580,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3565,
+                "shortTitle": "argparse",
+                "title": "WEB. Библиотека argparse. Задачи на создание скриптов с ее помощью",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 25,
+            "deadline": null,
+            "description": "<div class=\"problem-statement\">\n<div class=\"header\">\n<h1 class=\"title\">Калькулятор 3.0</h1>\n<table class=\"table table-sm table-from-contest\">\n<tbody>\n<tr class=\"time-limit\">\n<td class=\"property-title\">Ограничение времени</td>\n<td>1&nbsp;секунда</td>\n</tr>\n<tr class=\"memory-limit\">\n<td class=\"property-title\">Ограничение памяти</td>\n<td>64Mb</td>\n</tr>\n<tr class=\"input-file\">\n<td class=\"property-title\">Ввод</td>\n<td colspan=\"1\">стандартный ввод или input.txt</td>\n</tr>\n<tr class=\"output-file\">\n<td class=\"property-title\">Вывод</td>\n<td colspan=\"1\">стандартный вывод или output.txt</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h2></h2>\n<div class=\"legend\">Настала очередь третьей модификации нашего целочисленного калькулятора-сумматора. <br />Для правильной работы он должен получить <span style=\"font-weight: bold;\">два </span>целочисленных параметра. При этом параметры могут быть ошибочными.<br /> <br />Вам необходимо посчитать сумму переданных параметров.<br /> <br />Если параметры не были переданы, то следует вывести фразу <span style=\"font-weight: bold;\">NO PARAMS</span>, если целочисленный параметр только один, то выведите фразу <span style=\"font-weight: bold;\">TOO FEW</span> <span style=\"font-weight: bold;\">PARAMS</span>, если же целочисленных параметров больше двух &mdash; <span style=\"font-weight: bold;\">TOO MANY</span> <span style=\"font-weight: bold;\">PARAMS</span>, а в случае других ошибок &mdash; имя класса исключения, которое Python выбросит в этом случае.<br /> <br /> <br />Только не думайте, что все так просто: вам необходимо <span style=\"font-weight: bold;\">обязательно</span> использовать библиотеку <span style=\"font-weight: bold;\">argparse </span></div>\n<h3>Пример 1</h3>\n<table class=\"table table-sm table-from-contest\">\n<thead>\n<tr>\n<th>Ввод</th>\n<th>Вывод</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<pre>python3 solution.py 3 5</pre>\n</td>\n<td>\n<pre>8</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<h3>Пример 2</h3>\n<table class=\"table table-sm table-from-contest\">\n<thead>\n<tr>\n<th>Ввод</th>\n<th>Вывод</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<pre>python3 solution.py 3</pre>\n</td>\n<td>\n<pre>TOO FEW PARAMS</pre>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "compilersIds": [],
+            "isContestIntegrated": true,
+            "hasManualCheck": false,
+            "solutionId": 11000043,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Решение задач на API Яндекс.Карт": {
+        "title": {
+            "id": 25914,
+            "shortTitle": "F",
+            "title": "Большая задача по Maps API. Часть №12",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4585,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3567,
+                "shortTitle": "WEB 7",
+                "title": "WEB. Решение задач на API Яндекс.Карт",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 30,
+            "deadline": null,
+            "description": "<p>Добавьте возможность найти организацию в&nbsp;заданной точке по&nbsp;клику правой кнопкой мыши в&nbsp;карту. Выводить первую найденную организацию при условии, что ее&nbsp;координаты находятся не&nbsp;дальше 50&nbsp;метров от&nbsp;запрошенной точки (то&nbsp;есть они попадают в&nbsp;площадь, ограниченной окружностью радиусом 50&nbsp;метров с&nbsp;центром в&nbsp;точке &laquo;клика&raquo;).</p>\n<p>В&nbsp;противном случае не&nbsp;выводить ничего.</p>\n<p>Данная операция сбрасывает значения, связанные с&nbsp;предыдущим поиском.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Графический интерфейс для программы реализуйте с использованием модуля PyQT или PyGame.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000110,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Flask-sqlalchemy": {
+        "title": {
+            "id": 25848,
+            "shortTitle": "C",
+            "title": "Добавим кнопки",
+            "tag": {
+                "id": 2,
+                "type": "homework",
+                "color": "#027BF3",
+                "order": 2
+            },
+            "variant": {
+                "id": 4589,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3571,
+                "shortTitle": "sqlalchemy 2",
+                "title": "WEB. Flask-sqlalchemy",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 25,
+            "deadline": null,
+            "description": "<p>Добавьте кнопки <strong>Добавить</strong>, <strong>Изменить</strong> и&nbsp;<strong>Удалить</strong>, но&nbsp;возможность изменить и&nbsp;удалить должна быть только для автора (team leader), а&nbsp;также для капитана. Добавить может только авторизованный пользователь. В&nbsp;качестве ответа приложите измененный файл index.html.</p>\n<p><img src=\"https://yastatic.net/s3/lyceum/content/images/second-year/web/MARS-4-4.png\" width=\"580\" height=\"584\" caption=\"false\" /></p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000073,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Урок №2 (Алиса)": {
+        "title": {
+            "id": 25974,
+            "shortTitle": "B",
+            "title": "Угадай страну",
+            "tag": {
+                "id": 2,
+                "type": "homework",
+                "color": "#027BF3",
+                "order": 2
+            },
+            "variant": {
+                "id": 4596,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3576,
+                "shortTitle": "Алиса 2",
+                "title": "WEB. Урок №2 (Алиса)",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 25,
+            "deadline": null,
+            "description": "<p>После того как пользователь отгадал город, то&nbsp;попросите его отгадать и&nbsp;страну для этого города. Например:</p>\n<p><img src=\"https://yastatic.net/s3/lyceum/content/image/alice-chat-2.png\" alt=\"\" width=\"590\" height=\"580\" /></p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000143,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Шаблоны. flask-wtf": {
+        "title": {
+            "id": 25712,
+            "shortTitle": "D",
+            "title": "Автоматический ответ",
+            "tag": {
+                "id": 1,
+                "type": "classwork",
+                "color": "#00E6C5",
+                "order": 1
+            },
+            "variant": {
+                "id": 4587,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3569,
+                "shortTitle": "WEB. flask-wtf",
+                "title": "WEB. Шаблоны. flask-wtf",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 20,
+            "deadline": null,
+            "description": "<p>Обычно при заполнении формы на&nbsp;сайте пользователю приходит письмо с&nbsp;тем, что он&nbsp;написал в&nbsp;анкете, ну&nbsp;хотя&nbsp;бы для того, чтобы он&nbsp;не&nbsp;забыл, что писал :)</p>\n<p>В&nbsp;этом нам поможет базовый шаблон миссии, созданный в&nbsp;задаче &laquo;Готовимся к&nbsp;миссии&raquo;.</p>\n<p>Расширьте его шаблоном auto_answer.html, в&nbsp;котором выводятся поля анкеты и&nbsp;заполненные пользователем значения (мы&nbsp;их&nbsp;возьмем из&nbsp;обработчика).</p>\n<p>И&nbsp;напишите обработчик адресов <code>/answer</code> и&nbsp;<code>/auto_answer</code> с&nbsp;использованием словаря для подстановки значений:</p>\n<ul>\n<li>title</li>\n<li>surname</li>\n<li>name</li>\n<li>education</li>\n<li>profession</li>\n<li>sex</li>\n<li>motivation</li>\n<li>ready</li>\n</ul>\n<p>Отобразите результат красиво! Шаблоны должны находиться в&nbsp;папке templates. Добавьте стилевой файл, в&nbsp;котором измените цвет заголовка 4&nbsp;уровня и&nbsp;добавьте для него внутренний отступ слева 20&nbsp;px, сохраните его в&nbsp;папке /static/css. Архив с&nbsp;решением положите в&nbsp;качестве ответа.</p>\n<p><img src=\"https://yastatic.net/s3/lyceum/content/images/second-year/web/MARS-2-5.png\" alt=\"\" width=\"450\" height=\"429\" /></p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000048,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "Чат-боты 2 (Telegram)": {
+        "title": {
+            "id": 25796,
+            "shortTitle": "C",
+            "title": "Таймер-бот 2.0",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4593,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3578,
+                "shortTitle": "Чат-боты Tlg",
+                "title": "Чат-боты 2 (Telegram)",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 10,
+            "deadline": null,
+            "description": "<p>Модифицируйте таймер-бот из&nbsp;урока так, чтобы ему можно было передавать время, через которое должен сработать таймер, например, так:</p>\n<pre class=\"language-python\" style=\"font-size: 14.4px; word-spacing: 0px;\"><code>/set_timer 5</code></pre>\n<p>&nbsp;</p>\n<p>Для этого попробуйте использовать аргумент обработчика <code>pass_args</code>. О&nbsp;нём и&nbsp;других параметрах обработчика надо посмотреть в&nbsp;<a href=\"https://python-telegram-bot.readthedocs.io/en/stable/telegram.ext.commandhandler.html\" target=\"_blank\" rel=\"noopener\">документации</a>.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000054,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Знакомство с API": {
+        "title": {
+            "id": 25975,
+            "shortTitle": "D",
+            "title": "Слайд-шоу",
+            "tag": {
+                "id": 2,
+                "type": "homework",
+                "color": "#027BF3",
+                "order": 2
+            },
+            "variant": {
+                "id": 4578,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3562,
+                "shortTitle": "WEB.  API",
+                "title": "WEB. Знакомство с API",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 25,
+            "deadline": null,
+            "description": "<p>Напишите программу, которая реализует &laquo;слайд-шоу&raquo; из&nbsp;наперёд заданных в&nbsp;виде координат спутниковых снимков интересных участков поверхности Земли.</p>\n<p>Программа должна быть оконным приложением, которое содержит в&nbsp;себе информацию о&nbsp;&laquo;слайдах&raquo;, то&nbsp;есть ссылки на&nbsp;Static API с&nbsp;заранее подобранными координатами (см. подсказки по&nbsp;получению координат в&nbsp;уроке).</p>\n<p>Слайды&nbsp;&mdash; это полученные в&nbsp;результате запросов к&nbsp;Static API изображения. Они отображаются по&nbsp;очереди в&nbsp;окне программы и&nbsp;листаются любой клавишей клавиатуры. Показ слайдов <strong>циклический</strong>.</p>\n<p>Слайды можете выбрать на&nbsp;свой вкус, но&nbsp;их&nbsp;должно быть не&nbsp;менее трёх.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000148,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Введение во flask. Обработка HTML-форм": {
+        "title": {
+            "id": 25901,
+            "shortTitle": "C",
+            "title": "Изображение Марса",
+            "tag": {
+                "id": 1,
+                "type": "classwork",
+                "color": "#00E6C5",
+                "order": 1
+            },
+            "variant": {
+                "id": 4586,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3568,
+                "shortTitle": "WEB. HTML",
+                "title": "WEB. Введение во flask. Обработка HTML-форм",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 20,
+            "deadline": null,
+            "description": "<p>Теперь давайте добавим в&nbsp;наше приложение страницу с&nbsp;заголовком страницы <strong>&laquo;Привет, Марс!&raquo;</strong>, заголовком первого уровня <strong>&laquo;Жди нас, Марс!&raquo;</strong>, картинкой и&nbsp;подписью под ней. Все это должно открываться по&nbsp;адресу <code>/image_mars</code>.</p>\n<p><img src=\"https://yastatic.net/s3/lyceum/content/images/second-year/web/MARS.png\" width=\"450\" height=\"564\" caption=\"false\" /></p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000092,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Работа с командной строкой (скрипты, аргументы). Периодические задачи (модуль schedule)": {
+        "title": {
+            "id": 25758,
+            "shortTitle": "B",
+            "title": "Калькулятор 1.0",
+            "tag": {
+                "id": 1,
+                "type": "classwork",
+                "color": "#00E6C5",
+                "order": 1
+            },
+            "variant": {
+                "id": 4581,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3564,
+                "shortTitle": "WEB 4",
+                "title": "WEB. Работа с командной строкой (скрипты, аргументы). Периодические задачи (модуль schedule)",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 25,
+            "deadline": null,
+            "description": "<!DOCTYPE html\n  SYSTEM \"html\">\n<div class=\"problem-statement\">\n   <div class=\"header\">\n      <h1 class=\"title\">Калькулятор 1.0</h1>\n      <table>\n         <tr class=\"time-limit\">\n            <td class=\"property-title\">Ограничение времени</td>\n            <td>1&nbsp;секунда</td>\n         </tr>\n         <tr class=\"memory-limit\">\n            <td class=\"property-title\">Ограничение памяти</td>\n            <td>64Mb</td>\n         </tr>\n         <tr class=\"input-file\">\n            <td class=\"property-title\">Ввод</td>\n            <td colspan=\"1\">стандартный ввод или input.txt</td>\n         </tr>\n         <tr class=\"output-file\">\n            <td class=\"property-title\">Вывод</td>\n            <td colspan=\"1\">стандартный вывод или output.txt</td>\n         </tr>\n      </table>\n   </div>\n   <h2></h2>\n   <div class=\"legend\"> Напишите программу, которая берет из параметров командной строки два целочисленных аргумента и выводит на экран их сумму.<br>В\n      случае любой ошибки (некорректное количество аргументов, аргументы не того типа и т.д.) следует вывести число <span style=\"font-weight:\n      bold;\">0</span>. \n   </div>\n   <h3>Пример 1</h3>\n   <table class=\"sample-tests\">\n      <thead>\n         <tr>\n            <th>Ввод</th>\n            <th>Вывод</th>\n         </tr>\n      </thead>\n      <tbody>\n         <tr>\n            <td><pre>python3 solution.py 3 5</pre></td>\n            <td><pre>8</pre></td>\n         </tr>\n      </tbody>\n   </table>\n   <h3>Пример 2</h3>\n   <table class=\"sample-tests\">\n      <thead>\n         <tr>\n            <th>Ввод</th>\n            <th>Вывод</th>\n         </tr>\n      </thead>\n      <tbody>\n         <tr>\n            <td><pre>python3 solution.py 3</pre></td>\n            <td><pre>0</pre></td>\n         </tr>\n      </tbody>\n   </table>\n   <h3>Пример 3</h3>\n   <table class=\"sample-tests\">\n      <thead>\n         <tr>\n            <th>Ввод</th>\n            <th>Вывод</th>\n         </tr>\n      </thead>\n      <tbody>\n         <tr>\n            <td><pre>python3 solution.py vasya 5</pre></td>\n            <td><pre>0</pre></td>\n         </tr>\n      </tbody>\n   </table>\n   <h2>Примечания</h2>\n   <div class=\"notes\"> Необходимо обязательно использовать <!--l. 48--><math display=\"inline\" style=\"text-indent: 0em;\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>s</mi><mi>y</mi><mi>s</mi><mo>.</mo><mi>a</mi><mi>r</mi><mi>g</mi><mi>v</mi></math></div>\n</div>",
+            "compilersIds": [],
+            "isContestIntegrated": true,
+            "hasManualCheck": false,
+            "solutionId": 11000049,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Работа с протоколом HTTP": {
+        "title": {
+            "id": 26000,
+            "shortTitle": "A",
+            "title": "get 2 + 2",
+            "tag": {
+                "id": 1,
+                "type": "classwork",
+                "color": "#00E6C5",
+                "order": 1
+            },
+            "variant": {
+                "id": 4584,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3566,
+                "shortTitle": "WEB 6",
+                "title": "WEB. Работа с протоколом HTTP",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 33,
+            "deadline": null,
+            "description": "<div class=\"problem-statement\">\n<div class=\"header\">\n<h1 class=\"title\">get 2 + 2</h1>\n<table class=\"table table-sm table-from-contest\">\n<tbody>\n<tr class=\"time-limit\">\n<td class=\"property-title\">Ограничение времени</td>\n<td>1&nbsp;секунда</td>\n</tr>\n<tr class=\"memory-limit\">\n<td class=\"property-title\">Ограничение памяти</td>\n<td>64Mb</td>\n</tr>\n<tr class=\"input-file\">\n<td class=\"property-title\">Ввод</td>\n<td colspan=\"1\">стандартный ввод или input.txt</td>\n</tr>\n<tr class=\"output-file\">\n<td class=\"property-title\">Вывод</td>\n<td colspan=\"1\">стандартный вывод или output.txt</td>\n</tr>\n</tbody>\n</table>\n</div>\n<h2></h2>\n<div class=\"legend\">\n<p>Напишите программу с использованием модуля <span style=\"font-weight: bold;\">requests</span>, которая последовательно считывает из консоли адрес сервера, порт сервера, два целых числа <span style=\"font-weight: bold;\">a</span> и <span style=\"font-weight: bold;\">b</span>. Каждое значение вводится с новой строки. <br /> После чего осуществляется GET-запрос на введенный адрес и порт с передачей параметров <span style=\"font-weight: bold;\">a</span> и <span style=\"font-weight: bold;\">b</span>.<br /> То есть запрос вида: сервер:порт?a=значение_a&amp;b=значение_b <br /> Сервер возвращает ответ в формате <span style=\"font-weight: bold;\">json</span>, в котором есть список с произведением и суммой чисел <span style=\"font-weight: bold;\">a</span> и <span style=\"font-weight: bold;\">b</span> по ключу <span style=\"font-weight: bold;\">result</span>, а также проверочная строка по ключу <span style=\"font-weight: bold;\">check</span>. <br /> Пример ответа для первого теста: <br /> <code>{ </code><br /><code> 'check': 'b0f66adc83641586656866813fd9dd0b8ebb63796075661ba45d1aa8089e1d44', </code><br /><code> 'result': <span>[8, 6]</span> </code><br /><code> }</code></p>\n<p>Программа должна вывести на первой строке значение списка <span style=\"font-weight: bold;\">result</span>, отсортированные по возрастанию и разделенные пробелом. На второй строке необходимо вывести проверочную строку.</p>\n</div>\n<h2>Формат ввода</h2>\n<div class=\"input-specification\">\n<p>Строка - адрес сервера. <br /> Целое число - порт сервера. <br /> Целое число - число <span style=\"font-weight: bold;\">a</span>. <br /> Целое число - число <span style=\"font-weight: bold;\">b</span>.</p>\n</div>\n<h2>Формат вывода</h2>\n<div class=\"output-specification\">\n<p>Целые числа через пробел, отсортированные по возрастанию, из списка по ключу <span style=\"font-weight: bold;\">result</span> в ответе сервера. Проверочная строка из ответа сервера.</p>\n</div>\n<h3>Пример 1</h3>\n<table class=\"table table-sm table-from-contest\">\n<thead>\n<tr>\n<th>Ввод</th>\n<th>Вывод</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<pre>http://127.0.0.1\n7777\n2\n4</pre>\n</td>\n<td>\n<pre>6 8\nb0f66adc83641586656866813fd9dd0b8ebb63796075661ba45d1aa8089e1d44</pre>\n</td>\n</tr>\n</tbody>\n</table>\n<h3>Пример 2</h3>\n<table class=\"table table-sm table-from-contest\">\n<thead>\n<tr>\n<th>Ввод</th>\n<th>Вывод</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>\n<pre>http://127.0.0.1\n7777\n-7777\n888</pre>\n</td>\n<td>\n<pre>-6905976 -6889\n077bdb2c3714897d4153c8b48245afaa5b8ccb64bf4c5c316638818fa3a22a09</pre>\n</td>\n</tr>\n</tbody>\n</table>\n</div>",
+            "compilersIds": [],
+            "isContestIntegrated": true,
+            "hasManualCheck": false,
+            "solutionId": 11000145,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "Чат-боты 3 (Discord)": {
+        "title": {
+            "id": 25724,
+            "shortTitle": "E",
+            "title": "Бот-переводчик",
+            "tag": {
+                "id": 3,
+                "type": "additional",
+                "color": "#4E2B9B",
+                "order": 3
+            },
+            "variant": {
+                "id": 4594,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3579,
+                "shortTitle": "Боты Discord",
+                "title": "Чат-боты 3 (Discord)",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 18,
+            "deadline": null,
+            "description": "<p>Напишите бота для перевода игровых фраз. У&nbsp;бота должны быть команды:</p>\n<ul>\n<li><code>help_bot</code>&nbsp;&mdash; для инструкций по&nbsp;работе команд бота</li>\n<li><code>set_lang</code>&nbsp;&mdash; для смены языка</li>\n<li><code>text</code>&nbsp;&mdash; для ввода фразы для перевода</li>\n</ul>\n<p>Направление перевода по&nbsp;умолчанию <code>en-ru</code>.</p>\n<p>Для решения вам нужно найти бесплатный API для перевода и научиться его использовать. Например: <a href=\"https://english.api.rakuten.net/translated/api/mymemory-translation-memory\" target=\"_blank\" rel=\"noopener\">https://english.api.rakuten.net/translated/api/mymemory-translation-memory</a>.</p>\n<p><img src=\"https://yastatic.net/s3/lyceum/content/images/second-year/chatbot-3/chat-bot-3-7.png\" width=\"580\" height=\"462\" caption=\"false\" /></p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000023,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "WEB. Урок №1 (Алиса)": {
+        "title": {
+            "id": 25792,
+            "shortTitle": "B",
+            "title": "А ты купи слона",
+            "tag": {
+                "id": 1,
+                "type": "classwork",
+                "color": "#00E6C5",
+                "order": 1
+            },
+            "variant": {
+                "id": 4595,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3575,
+                "shortTitle": "Алиса",
+                "title": "WEB. Урок №1 (Алиса)",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 50,
+            "deadline": null,
+            "description": "<p>Разместите навык &laquo;Купи слона&raquo; в&nbsp;облаке и&nbsp;проверьте его работу с&nbsp;помощью программы <strong>Postman</strong>.</p>\n<p>Зарегистрируйте навык в&nbsp;Алисе и&nbsp;проверьте его работу в&nbsp;тестовом режиме.</p>\n<h2>Примечания</h2>\n<div class=\"notes\">Задание проверяется преподавателем.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000050,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    },
+    "Защита проекта PyGame": {
+        "title": {
+            "id": 25938,
+            "shortTitle": "A",
+            "title": "Проект PyGame",
+            "tag": {
+                "id": 7,
+                "type": "control-work",
+                "color": "#CCCCCC",
+                "order": 5
+            },
+            "variant": {
+                "id": 4598,
+                "index": 0
+            },
+            "lesson": {
+                "id": 3581,
+                "shortTitle": "Защита PyGame",
+                "title": "Защита проекта PyGame",
+                "type": "normal",
+                "status": "in-progress",
+                "manualVariantsAssignment": false,
+                "isTestFinished": null
+            },
+            "scoreMax": 100,
+            "deadline": null,
+            "description": "<p>Отправьте ссылку на репозиторий на GitHub со всеми файлами и ресурсами вашего проекта. Ссылку можно прислать в текстовом файле.</p>\r\n<p></p>\r\n<h2>Примечания</h2>\r\n<div class=\"notes\">Проект будет оценен вашим преподавателем. Критерии оценки приведены в материалах урока.</div>",
+            "compilersIds": [],
+            "isContestIntegrated": false,
+            "hasManualCheck": true,
+            "solutionId": 11000107,
+            "latestSubmission": null,
+            "course": {
+                "id": 766,
+                "courseCompilers": {
+                    ".py": [
+                        "python-lyceum"
+                    ]
+                }
+            }
+        }
+    }
+}
